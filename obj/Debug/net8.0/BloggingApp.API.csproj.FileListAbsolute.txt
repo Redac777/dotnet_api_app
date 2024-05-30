@@ -134,3 +134,4 @@ C:\Users\ZBOOK\Documents\bloggingApp\API\BloggingApp.API\BloggingApp.API\obj\Deb
 C:\Users\ZBOOK\Documents\bloggingApp\API\BloggingApp.API\BloggingApp.API\obj\Debug\net8.0\BloggingApp.API.pdb
 C:\Users\ZBOOK\Documents\bloggingApp\API\BloggingApp.API\BloggingApp.API\obj\Debug\net8.0\BloggingApp.API.genruntimeconfig.cache
 C:\Users\ZBOOK\Documents\bloggingApp\API\BloggingApp.API\BloggingApp.API\obj\Debug\net8.0\ref\BloggingApp.API.dll
+C:\Users\ZBOOK\Documents\bloggingApp\API\BloggingApp.API\BloggingApp.API\obj\Debug\net8.0\BloggingApp.API.sourcelink.json

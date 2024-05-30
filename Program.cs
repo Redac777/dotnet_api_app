@@ -1,4 +1,6 @@
 using BloggingApp.API.Data;
+using BloggingApp.API.Repositories.Implementation;
+using BloggingApp.API.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +23,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("BloggingAppConnectionString"));
 });
+
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 //Build app with all added services and configurations
 var app = builder.Build();
