@@ -9,10 +9,10 @@ namespace BloggingApp.API.Data
         {
         }
 
-        //Create BlogPosts databse relation
+        //Create BlogPosts database relation
         public DbSet<BlogPost> BlogPosts { get; set; }
 
-        //Create Categories databse relation
+        //Create Categories database relation
         public DbSet<Category> Categories { get; set; }
     }
 }
